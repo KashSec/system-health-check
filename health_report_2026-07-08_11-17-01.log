@@ -1,0 +1,53 @@
+=======================================
+      SYSTEM HEALTH REPORT
+=======================================
+Hostname : Kashmala
+Date     : Wed Jul  8 11:17:01 AM PKT 2026
+Uptime   : up 7 minutes
+
+========== CPU Load ==========
+ 11:17:01 up 7 min,  1 user,  load average: 0.16, 0.08, 0.03
+
+========== Memory Usage ==========
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       449Mi       7.1Gi       3.7Mi       301Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+========== Disk Usage ==========
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         390G  348G   43G  90% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.9G  953G   1% /
+none            3.9G   80K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.7M  3.9G   1% /init
+none            3.9G     0  3.9G   0% /dev
+none            3.9G  488K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             390G  348G   43G  90% /mnt/c
+D:\             564G  105G  460G  19% /mnt/d
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/console-getty.service
+tmpfs           3.9G   20K  3.9G   1% /run/user/1000
+
+========== Top 5 Memory Processes ==========
+    PID COMMAND         %MEM %CPU
+     50 systemd-journal  0.1  0.1
+      1 systemd          0.1  0.6
+    255 systemd          0.1  0.0
+     64 systemd-udevd    0.1  0.1
+    138 systemd-logind   0.1  0.0
+
+========== Logged In Users ==========
+kali     pts/1        2026-07-08 11:09
+
+========== Network Interfaces ==========
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
+eth0             UP             172.25.6.231/20 fe80::215:5dff:fec5:f590/64 
+
+========== Report Complete ==========
